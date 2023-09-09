@@ -53,7 +53,7 @@ export class UnsplashAPI {
           page: this.page,
           per_page: this.per_page,
           client_id: this.#API_KEY,
-          orientation: 'portrait',
+          // orientation: 'portrait',
         },
       })
       .then(resp => resp.data);
